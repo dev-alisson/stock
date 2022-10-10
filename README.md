@@ -16,7 +16,7 @@
 
 - Faça o download do repositório
 - Acesse a aplicação no seu editor de código favorito
-- No terminal, execute o comando [ composer require ] para instalar as dependências do projeto
+- No terminal, execute o comando [ composer install ] para instalar as dependências do projeto
 - Acesse uma ferramenta de gerenciamento de base de dados e defina uma base de dados com o nome 'stock'
 - Ainda no terminal, execute o comando [ php artisan migrate ] para instalar a base de dados
 - Feito a instalação do banco de dados, execute o comando [ php artisan serve ] para iniciar a aplicação
