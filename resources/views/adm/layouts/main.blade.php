@@ -46,7 +46,8 @@
                     <li class="header__item js-cart-button">
 
                         <!-- button -->
-                        <a class="header__button is-active" href="/admin" title="Dashboard">
+                        <a class="header__button {{ (request()->is('admin')) ? 'is-active' : '' }}" href="/admin"
+                            title="Dashboard">
 
                             <!-- icon -->
                             <i class="ri-home-4-line header__icon--button"></i>
@@ -66,7 +67,8 @@
                     <li class="header__item js-cart-button">
 
                         <!-- button -->
-                        <a class="header__button" href="/admin/products" title="Produtos">
+                        <a class="header__button {{ (request()->is('admin/products')) ? 'is-active' : '' }}"
+                            href="/admin/products" title="Produtos">
 
                             <!-- icon -->
                             <i class="ri-rocket-line header__icon--button"></i>
@@ -86,7 +88,8 @@
                     <li class="header__item js-cart-button">
 
                         <!-- button -->
-                        <a class="header__button" href="/admin/users" title="Usuários">
+                        <a class="header__button {{ (request()->is('admin/users')) ? 'is-active' : '' }}"
+                            href="/admin/users" title="Usuários">
 
                             <!-- icon -->
                             <i class="ri-user-line header__icon--button"></i>
@@ -106,7 +109,8 @@
                     <li class="header__item js-cart-button">
 
                         <!-- button -->
-                        <a class="header__button" href="/admin/sellers" title="Vendedores">
+                        <a class="header__button {{ (request()->is('admin/sellers')) ? 'is-active' : '' }}"
+                            href="/admin/sellers" title="Vendedores">
 
                             <!-- icon -->
                             <i class="ri-truck-line header__icon--button"></i>
@@ -126,7 +130,8 @@
                     <li class="header__item js-cart-button">
 
                         <!-- button -->
-                        <a class="header__button" href="/admin/orders" title="Pedidos">
+                        <a class="header__button {{ (request()->is('admin/orders')) ? 'is-active' : '' }}"
+                            href="/admin/orders" title="Pedidos">
 
                             <!-- icon -->
                             <i class="ri-shopping-bag-line header__icon--button"></i>
@@ -146,7 +151,8 @@
                     <li class="header__item js-cart-button">
 
                         <!-- button -->
-                        <a class="header__button" href="/admin/logs" title="Logs">
+                        <a class="header__button {{ (request()->is('admin/logs')) ? 'is-active' : '' }}"
+                            href="/admin/logs" title="Logs">
 
                             <!-- icon -->
                             <i class="ri-hammer-line header__icon--button"></i>
